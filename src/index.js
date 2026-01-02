@@ -1,0 +1,14 @@
+var myString = "My String";
+console.log("String:", myString);
+var myNumber = 7;
+console.log("Number:", myNumber);
+var myBoolean = true;
+console.log("Boolean:", myBoolean);
+var myNull = null;
+console.log("Null:", myNull);
+var myAny = "모든 타입 허용";
+console.log("Any string:", myAny);
+myAny = 5;
+console.log("changed any to number:", myAny);
+myAny = false;
+console.log("changed any to boolean:", myAny);
